@@ -1,0 +1,58 @@
+
+
+.Home h1 {
+  font-family: 'Itim', cursive;
+  color: #1970F3;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  font-size: 350%;
+  margin-top: 5px;
+}
+
+.Home h2 {
+  font-family: 'Itim', cursive;
+    text-align: center;
+  font-size: 200%;
+  margin-top: 400px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+
+
+.Home button{
+  text-align: center;
+  background-color: #3949ab;
+  font-family: 'Itim', cursive;
+  font-size: 18px;
+  color: white;
+  margin: 0;
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+  padding: 5px 15px;
+  border-radius: 10px;
+  outline: 0;
+  box-shadow: 0px 2px 2px lightgrey;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+button:hover {
+  background-color: #283593;
+
+
+}
+
+.Home h4 {
+  font-family: 'Itim', cursive;
+  text-align: center;
+  margin-top: 200px;
+
+
+
+}

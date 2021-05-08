@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+.NextStep {
+  background-color: #009e00;
+  font-family: 'Itim', cursive;
+  color: #fff;
+  padding: 10px 30px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px lightgrey;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+.NextStep:hover{
+  background-color: green;
+
+}
+.NextStep[disabled]{
+  display: none;
+}
+
+.finalPage{
+  text-align: center;
+}
+
+.playagain {
+  background-color: #3949ab;
+  font-family: 'Itim', cursive;
+  color: #fff;
+  padding: 10px 30px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px lightgrey;
+  cursor: pointer;
+  text-transform: uppercase;
+margin:10px 10px 10px 10px;
+}
+.playgain button:hover {
+  background-color: #283593;
+
+
+}
+/* Fake image */
+.fakeimg {
+  max-width:400px;
+  height: 50%;
+  text-align: center;
+
+
+}

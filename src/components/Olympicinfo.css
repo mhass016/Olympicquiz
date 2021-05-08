@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.Olympicinfo {
+  text-align: center;
+  font-family: 'Itim', cursive;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  font-family: 'Itim', cursive;
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  text-align: center;
+  font-family: 'Itim', cursive;
+  float: none;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  max-width:800px;
+  height: 50%;
+  text-align: center;
+
+
+}
+
+/* Add a card effect for articles */
+.card {
+display: block;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.NextStep {
+  background-color: #009e00;
+  font-family: 'Itim', cursive;
+  color: #fff;
+  padding: 10px 30px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px lightgrey;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn, .card, .fakeimg   {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
