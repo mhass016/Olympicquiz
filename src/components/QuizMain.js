@@ -11,13 +11,13 @@ export default class Quiz extends Component {
   state = {
     questions: {
       1: 'When and where did the first modern Olympic games take place?',
-      2: 'How many summer Olympic games took place before Tokyo 2020?',
-      3: 'Which country won the most medals in the summer Olympic games?',
-      4: 'Who is the athlete who won the most medals in the summer Olympic games?',
-      5: 'Which continent never hosted an edition of the summer Olympic games?',
+      2: 'How many summer Olympics took place before Tokyo 2020?',
+      3: 'Which country won the most medals in the summer Olympics?',
+      4: 'Who is the athlete who won the most medals in the summer Olympics?',
+      5: 'Which continent never hosted the Olympic games?',
       6: 'Which of the following sports featured in every summer Olympics?',
       7: 'Which city hosted more editions of the summer Olympics?',
-      8: 'Which of these countries competed in every single edition of the summer Olympics?',
+      8: 'Which of these countries competed in every edition of the summer Olympics?',
       9:'This summer Tokyo will host the Olympics for the second time, when was the first time?',
       10:'Who is the most decorated female athlete in the Olympic games?'
     },

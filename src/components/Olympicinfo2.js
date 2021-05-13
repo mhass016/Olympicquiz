@@ -17,7 +17,7 @@ function Olympicinfo(){
       <h2>How many summer Olympic games took place before Tokyo 2020?</h2>
       <div class="fakeimg"> <img src={Img} /> </div>
         <p>Tokyo 2020 will be the 29th edition of the summer Olympic Games. since the launching of the modern games in 1896 they went on to take place every four years. Only the first and second world wars led to cancelling the summer Olympics in 1916,1940 and 1944.
-       As a result of the coronavirus pandemic, Tokyo 2020 was postponed for 1 year to take place in 2021. </p>
+       As a result of the coronavirus pandemic, Tokyo 2020 was moved to take place in 2021. </p>
         <button className="playagain"><Link to="/answers" style={{ textDecoration: 'none',  color: 'white' }}>
           back
           </Link></button>
