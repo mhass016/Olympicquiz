@@ -45,7 +45,7 @@ margin:10px 10px 10px 10px;
 
 
 }
-/* Fake image */
+
 .fakeimg {
   max-width:400px;
   height: 50%;
@@ -53,3 +53,10 @@ margin:10px 10px 10px 10px;
 
 
 }
+
+.socialwrap
+{
+      position: absolute;
+       left:  50%; top: 90%;
+      transform: translate(-50%, -50%)
+  }

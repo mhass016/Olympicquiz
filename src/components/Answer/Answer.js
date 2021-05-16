@@ -28,7 +28,7 @@ return (
   <div>
   {
 props.correctAnswer ?
-'Well done! Correct Answer!' :
+'Well Done! Correct Answer!' :
 props.clickedAnswer ?
 'Oops! Incorrect Answer!' : ''
   }

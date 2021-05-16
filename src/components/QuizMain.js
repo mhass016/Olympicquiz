@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Question from './question/Question';
+import SocialButtonsContainer from 'react-social-media-buttons';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import Img from './media/usian.gif'
@@ -161,11 +162,21 @@ clickedAnswer={clickedAnswer}
   <div class="fakeimg"> <img src={Img} /> </div>
   <p><b> Your score is: {score} of {Object.keys(questions).length}</b></p>
   <button className="playagain"><Link to="/" style={{ textDecoration: 'none',  color: 'white' }}>
-    Play Again!
+    Play Again
     </Link></button>
     <button className="NextStep"><Link to="/answers" style={{ textDecoration: 'none',  color: 'white' }}>
       View Correct Answers
       </Link></button>
+      <div class="socialwrap">
+      <p>Or test your friends!</p>
+      <SocialButtonsContainer
+      links={['https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Folyquiz.herokuapp.com%2F&amp;src=sdkpreparse','https://twitter.com/intent/tweet?url=https://olyquiz.herokuapp.com']}
+      buttonStyle={{margin: '0px 5px', backgroundColor: 'transparent'}}
+      iconStyle={{color: '#0e058f'}}
+      openNewTab={true}
+      />
+      </div>
+
   </div>
 )
 }

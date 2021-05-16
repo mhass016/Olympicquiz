@@ -1,6 +1,7 @@
 import React from 'react';
 import Quiz from './QuizMain';
 import { Wave, Random } from 'react-animated-text';
+import SocialButtonsContainer from 'react-social-media-buttons';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import './home.css'
@@ -14,7 +15,7 @@ import './home.css'
 function Home(){
   return(
     <div className="Home">
-    <h2>Test your knowledge and know more about the summer Olympic games!</h2>
+    <h2>Test your knowledge and know more about the Olympic games!</h2>
 
 
     <button>
@@ -23,7 +24,25 @@ function Home(){
     </Link>
     </button>
 
-  <h4> Designed and Created by Mohamed Hassan using React JS & CSS </h4>
+  <h4> ©Designed and Created by <a href="https://twitter.com/MohQutob" style={{ textDecoration: 'none', color: '#3949ab'}}>Mohamed Qoutb </a>
+using React JS</h4>
+
+<div
+  style={{
+      position: 'absolute', left: '50%', top: '90%',
+      transform: 'translate(-50%, -50%)'
+  }}
+  >
+
+<SocialButtonsContainer
+links={['https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Folyquiz.herokuapp.com%2F&amp;src=sdkpreparse','https://twitter.com/intent/tweet?url=https://olyquiz.herokuapp.com']}
+buttonStyle={{margin: '0px 5px', backgroundColor: 'transparent'}}
+iconStyle={{color: '#0e058f'}}
+openNewTab={true}
+/>
+
+</div>
+
 
     </div>
     );
