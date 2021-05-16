@@ -25,6 +25,7 @@
 
 .finalPage{
   text-align: center;
+  
 }
 
 .playagain {
@@ -57,7 +58,7 @@ margin:10px 10px 10px 10px;
 .socialwrap
 {
       position: absolute;
-       left:  50%; top: 90%;
+       left:  50%; top: 95%;
       transform: translate(-50%, -50%)
   }
 
@@ -73,7 +74,8 @@ margin:10px 10px 10px 10px;
   @media screen and (max-width: 400px) {
     .socialwrap
 {
-  left: 50%; transform: translateX(-50%);
+  text-align: center;
+  left: 75%; transform: translateX(-50%);
   position: relative;
       float: none;
       width: 100%;

@@ -167,8 +167,8 @@ clickedAnswer={clickedAnswer}
     <button className="NextStep"><Link to="/answers" style={{ textDecoration: 'none',  color: 'white' }}>
       View Correct Answers
       </Link></button>
+      <p><b>Test your friends!</b></p>
       <div class="socialwrap">
-      <p>Or test your friends!</p>
       <SocialButtonsContainer
       links={['https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Folyquiz.herokuapp.com%2F&amp;src=sdkpreparse','https://twitter.com/intent/tweet?url=https://olyquiz.herokuapp.com']}
       buttonStyle={{margin: '0px 5px', backgroundColor: 'transparent'}}
