@@ -68,10 +68,11 @@ button:hover {
       padding: 0;
     }
   }
-  
+
   @media screen and (max-width: 400px) {
     .socialwrap
 {
+  position: relative;
       float: none;
       width: 100%;
     }
