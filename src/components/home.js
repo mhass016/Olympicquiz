@@ -27,12 +27,8 @@ function Home(){
   <h4> ©Designed and Created by <a href="https://twitter.com/MohQutob" style={{ textDecoration: 'none', color: '#3949ab'}}>Mohamed Qoutb </a>
 using React JS</h4>
 
-<div
-  style={{
-      position: 'absolute', left: '50%', top: '90%',
-      transform: 'translate(-50%, -50%)'
-  }}
-  >
+<div className="SocialWrap">
+
 
 <SocialButtonsContainer
 links={['https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Folyquiz.herokuapp.com%2F&amp;src=sdkpreparse','https://twitter.com/intent/tweet?url=https://olyquiz.herokuapp.com']}
