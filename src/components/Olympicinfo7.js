@@ -17,7 +17,7 @@ function Olympicinfo(){
       <h2>Which city hosted more editions of the summer Olympics?</h2>
       <h4>London</h4>
       <div class="fakeimg"> <img src={Img} /> </div>
-        <p>The 2012 edition was the 3rd time the summer Olympics take place in London after 1908 and 1984. Both Paris and Los Angeles are set the equalise this record when they host the 2024 and the 2028 editions respectively.</p>
+        <p>The 2012 edition was the 3rd time the summer Olympics take place in London after 1908 and 1984. Both Paris and Los Angeles are set to equalise this record when they host the 2024 and the 2028 editions respectively.</p>
         <button className="playagain"><Link to="/answers6" style={{ textDecoration: 'none',  color: 'white' }}>
           back
           </Link></button>

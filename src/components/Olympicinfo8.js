@@ -17,7 +17,7 @@ function Olympicinfo(){
       <h2>Which of these countries competed in every summer Olympics?</h2>
       <h4>Greece</h4>
       <div class="fakeimg"> <img src={Img} /> </div>
-        <p>Well, it was their idea after all! Greece is one of only 5 countries that featured in every edition of the summer Olympics. This exclusive club includes also Australia, France, Great Britain, and Switzerland.During the parade of nations at the opening ceremony of the Olympic Games, Greece always enters the stadium first and leads the parade to honor its status as the birthplace of the Olympics.</p>
+        <p>Well, it was their idea after all! Greece is one of only 5 countries that featured in every edition of the summer Olympics. This exclusive club includes also Australia, France, Great Britain, and Switzerland. During the parade of nations at the opening ceremony of the Olympic Games, Greece always enters the stadium first and leads the parade to honor its status as the birthplace of the Olympics.</p>
         <button className="playagain"><Link to="/answers7" style={{ textDecoration: 'none',  color: 'white' }}>
           back
           </Link></button>
