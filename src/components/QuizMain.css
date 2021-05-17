@@ -74,9 +74,7 @@ margin:10px 10px 10px 10px;
   @media screen and (max-width: 500px) {
     .socialwrap
 {
-  text-align: center;
-  left: 75%; transform: translateX(-50%);
-  position: relative;
+
       float: none;
       width: 100%;
     }

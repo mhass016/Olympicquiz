@@ -73,9 +73,7 @@ button:hover {
     .SocialWrap
 {
 
-  left: 50%;top: 90%;
-    transform: translate(-20%, -10%);
-  position: relative;
+
       float: none;
       width: 100%;
     }
