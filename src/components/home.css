@@ -67,10 +67,11 @@ button:hover {
       width: 100%;
       padding: 0;
     }
-    .SocialWrap, {
+
+    .SocialWrap {
 
       position: relative;
-       left:  70%; 
+       left:  85%;
           float: none;
           width: 100%;
         }
@@ -81,7 +82,7 @@ button:hover {
 {
 
   position: relative;
-   left:  82%; top: 90%;
+   left:  83%; top: 90%;
       float: none;
       width: 100%;
     }
