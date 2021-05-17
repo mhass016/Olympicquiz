@@ -71,7 +71,6 @@ button:hover {
 
       position: absolute;
        left:  50%; top: 90%;
-      transform: translate(-50%, -50%);
           float: none;
           width: 100%;
         }
@@ -83,7 +82,6 @@ button:hover {
 
   position: absolute;
    left:  50%; top: 90%;
-  transform: translate(-50%, -50%);
       float: none;
       width: 100%;
     }

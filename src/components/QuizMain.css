@@ -71,7 +71,6 @@ margin:10px 10px 10px 10px;
     .socialwrap {
         position: absolute;
          left:  50%; top: 90%;
-        transform: translate(-50%, -50%);
             float: none;
             width: 100%;
     }
@@ -84,7 +83,6 @@ margin:10px 10px 10px 10px;
 
       position: absolute;
        left:  50%; top: 90%;
-      transform: translate(-50%, -50%);
           float: none;
           width: 100%;
         }
