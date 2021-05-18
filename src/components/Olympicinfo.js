@@ -14,7 +14,7 @@ function Olympicinfo(){
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>When and where did the first modern Olympic games take place?</h2>
+      <h2>When and where did the first modern Olympic Games take place?</h2>
       <h4>It happened in Athens in 1896!</h4>
       <div class="fakeimg"> <img src={Img} /> </div>
         <p>The first ever edition of the modern Olympic Games was held in Greece to honor the birthplace of the ancient Olympic Games that took place every four years from 776 BC to at least 393 AD. More than 50,000 people filled the Panathenaic Stadium in Athens for the first modern Olympics in 1896. </p>

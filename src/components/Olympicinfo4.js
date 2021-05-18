@@ -17,7 +17,7 @@ function Olympicinfo(){
       <h2>Who is the athlete who won the most medals in the Olympic Games?</h2>
       <h4> Michael Phelps </h4>
       <div class="fakeimg"> <img src={Img} /> </div>
-        <p>The legendary American swimmer Michael Phelps is the most decorated Olympian of all time, winning 28 medals in total in 4 participations. 23 of those medals were Gold!</p>
+        <p>The legendary American swimmer Michael Phelps is the most decorated Olympian of all time, winning 28 medals in total in 4 participations. 23 of those medals are Gold!</p>
         <button className="playagain"><Link to="/answers3" style={{ textDecoration: 'none',  color: 'white' }}>
           back
           </Link></button>

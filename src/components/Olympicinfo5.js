@@ -17,7 +17,7 @@ function Olympicinfo(){
       <h2>Which continent is the only one that never hosted the Olympic Games?</h2>
       <h4>Africa</h4>
       <div class="fakeimg"> <img src={Img} /> </div>
-        <p>After Rio de Janiero hosted the last Olympics in 2016, Africa remains the only continent yet to host the summer Olympics. Africans will have to wait for even longer to see the Olympics take place in their land, as we already know the host cities for the Olympics until 2032 !</p>
+        <p>After Rio de Janiero hosted the last Olympics in 2016, Africa remains the only continent yet to host the summer Olympics. Africans will have to wait for even longer to see the Olympics take place in their land, as we already know the host cities for the Olympics until 2032 and none of them is an African city!</p>
         <button className="playagain"><Link to="/answers4" style={{ textDecoration: 'none',  color: 'white' }}>
           back
           </Link></button>

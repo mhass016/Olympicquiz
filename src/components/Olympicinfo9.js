@@ -17,7 +17,7 @@ function Olympicinfo(){
       <h2>Tokyo will host the Olympics for the second time, when was the first time?</h2>
       <h4>It was in 1964</h4>
       <div class="fakeimg"> <img src={Img} /> </div>
-        <p>Tokyo was the first ever Asian city to host the Olympics in 1964. The Japanese capital had been also awarded the organization of the 1940 Summer Olympics, but this honor was subsequently passed to Helsinki due to Japan's invasion of China, before ultimately being cancelled due to the second World War .
+        <p>Tokyo was the first ever Asian city to host the Olympics in 1964. The Japanese capital had been also awarded the organization of the 1940 summer Olympics, but this honor was subsequently passed to Helsinki due to Japan's invasion of China, before ultimately being cancelled due to the second World War.
 </p>
         <button className="playagain"><Link to="/answers8" style={{ textDecoration: 'none',  color: 'white' }}>
           back
